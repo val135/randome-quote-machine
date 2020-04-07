@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,700;1,300&display=swap');
+
+body {
+    background-color: lightblue;
+}
+
+.quote-box {
+    background-color: white ;
+    height: 250px;
+    margin: 150px auto;
+    width: 500px;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+#text {
+    font-family: 'Inria Sans', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 50px;
+    color: lightblue;
+    height: 70px;
+}
+
+#author {
+    font-family: 'Inria Sans', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 15px;
+    color:  lightblue;
+    height: 40px;
+}
+
+.buttons {
+    height: 60px;
+    margin-top: 25px;
+    display: block;
+}
+
+.btn-left {
+    height: 60px; 
+    display: block;
+    width: 250px;
+    float: left;
+
+}
+
+.btn-right {
+    height: 60px; 
+    display: block;
+    width: 250px;
+    float:right;
+}
+
+#tweet-quote {
+    display: flex;
+    font-weight: 300;
+    margin-left: 50px;
+    text-decoration: none;
+    float: left;
+    margin-top: 0px;
+    color:  lightblue;
+}
+
+button {
+    display: flex;
+    font-family: 'Inria Sans', sans-serif;
+    margin-right: 50px;  
+    height: 40px;
+    float:right;
+    margin-top: 0px;
+    margin-left: 100px;
+    color: white;
+    background-color: lightblue;
+}
+
