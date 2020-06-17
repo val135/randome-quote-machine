@@ -31,6 +31,7 @@ body {
     height: 40px;
 }
 
+
 .buttons {
     height: 60px;
     margin-top: 25px;
@@ -42,7 +43,6 @@ body {
     display: block;
     width: 250px;
     float: left;
-
 }
 
 .btn-right {
@@ -72,5 +72,13 @@ button {
     margin-left: 100px;
     color: white;
     background-color: lightblue;
+    border: none !important;
+}
+
+#new-quote {
+    border-radius: 8px;
+    outline: none;
+    padding: 12px;
+    box-shadow: none;
 }
 
